@@ -12,6 +12,20 @@
     }
 }
 
+@keyframes unblur2 {
+    from {
+        display: initial;
+        filter: blur(500px);
+        font-size: 5px;
+    }
+
+    to {
+        font-size: 20px;
+        filter: blur(0px);
+        display: initial;
+    }
+}
+
 html, body {
     padding: 0;
     margin: 0;
@@ -24,11 +38,13 @@ html, body {
 
 #name {
     font-size: 100px;
-    animation: cubic-bezier(0.62, -0.01, 0.1, 0.65) unblur 2s;
+    animation: cubic-bezier(0.35, 1.29, 0, 2.18) unblur 2.5s;
     font-family: 'IBM Plex Mono', monospace;
 }
 
 #blurb {
+    animation: cubic-bezier(0.35, 1.29, 0, 2.18) unblur2 1.5s;
+    display: none;
     font-family: 'Open Sans', sans-serif;
 }
 
