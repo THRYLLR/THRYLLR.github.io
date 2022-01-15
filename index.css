@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Open+Sans:wght@300&display=swap');
 
+@keyframes unblur {
+    from {
+        font-size: 50px;
+        filter: blur(50px);
+    }
+
+    to {
+        font-size: initial;
+        filter: blur(0px);
+    }
+}
+
 html, body {
     padding: 0;
     margin: 0;
@@ -11,7 +23,8 @@ html, body {
 }
 
 #name {
-    font-size: 50px;
+    font-size: 100px;
+    animation: cubic-bezier(.62,-0.01,.59,1.73) unblur 2s;
     font-family: 'IBM Plex Mono', monospace;
 }
 
