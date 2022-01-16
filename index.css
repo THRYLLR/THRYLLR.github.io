@@ -73,6 +73,7 @@ html, body {
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
     filter: blur(20px);
+    display: grid;
 }
 
 .icon {
@@ -88,4 +89,8 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+p {
+    grid-row: 1;
 }
