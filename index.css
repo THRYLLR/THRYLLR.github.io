@@ -27,10 +27,12 @@
 @keyframes showstuff {
     from {
         height: 0;
+        filter: blur(10px);
     }
 
     to {
         height: 103px;
+        filter: blur(0px);
     }
 }
 
@@ -72,6 +74,7 @@ html, body {
     animation: cubic-bezier(0.67, 0.01, 0.22, 1.01) showstuff 1s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+    filter: blur(10px);
 }
 
 .icon {
