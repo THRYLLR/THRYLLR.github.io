@@ -15,11 +15,11 @@
 @keyframes unblur2 {
     from {
         filter: blur(50px);
-        font-size: 5px;
+        height: 150px;
     }
 
     to {
-        font-size: 20px;
+        height: 100px;
         filter: blur(0px);
     }
 }
