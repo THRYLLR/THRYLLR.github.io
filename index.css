@@ -24,6 +24,16 @@
     }
 }
 
+@keyframes showstuff {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 103px;
+    }
+}
+
 html, body {
     padding: 0;
     margin: 0;
@@ -57,6 +67,9 @@ html, body {
     border: solid white;
     border-width: 1px 0 1px 0;
     margin: 30px;
+    height: 0;
+    animation: cubic-bezier(0.67, 0.01, 0.22, 1.01) showstuff 1s;
+    animation-delay: 2.5s;
 }
 
 .icon {
