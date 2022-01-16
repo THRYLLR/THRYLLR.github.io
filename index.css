@@ -21,7 +21,6 @@
     to {
         font-size: 20px;
         filter: blur(0px);
-        display: inline;
     }
 }
 
@@ -43,7 +42,6 @@ html, body {
 
 #blurb {
     animation: cubic-bezier(0.67, 0.01, 0.22, 1.01) unblur2 1.5s;
-    display: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
