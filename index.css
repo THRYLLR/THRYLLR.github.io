@@ -60,6 +60,7 @@ html, body {
 }
 
 #contentstuff {
+    overflow: hidden;
     font-size: 30px;
     font-family: 'Open Sans';
     width: 80%;
@@ -69,7 +70,7 @@ html, body {
     margin: 30px;
     height: 0;
     animation: cubic-bezier(0.67, 0.01, 0.22, 1.01) showstuff 1s;
-    animation-delay: 2.5s;
+    animation-delay: 1s;
 }
 
 .icon {
