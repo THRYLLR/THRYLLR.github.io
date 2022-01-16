@@ -48,7 +48,7 @@ html, body {
 
 #name {
     font-size: 100px;
-    animation: cubic-bezier(0.84, 1.43, 0, 1.07) unblur 2.5s;
+    animation: cubic-bezier(0.67, 0.01, 0.22, 1.01) unblur 2.5s;
     font-family: 'IBM Plex Mono', monospace;
     margin: 20px;
 }
