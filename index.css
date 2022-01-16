@@ -94,11 +94,9 @@ html, body {
 #realblurb {
     padding: 0;
     grid-row: 1;
-    border-right: 0.5px solid white;
 }
 
 #projectgrid {
     padding: 0;
     grid-row: 1;
-    border-left: 0.5px solid white;
 }
