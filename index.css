@@ -13,15 +13,13 @@
 }
 
 @keyframes unblur2 {
-    from {
-        filter: blur(50px);
-        height: 150px;
-    }
+    from { filter: blur(50px); }
+    to { filter: blur(0px); }
+}
 
-    to {
-        height: 100px;
-        filter: blur(0px);
-    }
+@keyframes heightchange {
+    from { height: 150px; }
+    to { height: 100px; }
 }
 
 @keyframes showstuff {
@@ -31,7 +29,7 @@
     }
 
     to {
-        height: 103px;
+        height: auto;
         filter: blur(0px);
     }
 }
