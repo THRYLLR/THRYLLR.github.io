@@ -91,6 +91,14 @@ html, body {
     flex-direction: column;
 }
 
-p {
+#realblurb {
     grid-row: 1;
+    border-right: 0.5px solid white;
+    padding-right: 30px;
+}
+
+#projectgrid {
+    grid-row: 1;
+    border-left: 0.5px solid white;
+    padding-left: 30px;
 }
