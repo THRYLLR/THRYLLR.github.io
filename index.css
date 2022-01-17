@@ -28,6 +28,10 @@
         filter: blur(20px);
     }
 
+    30% {
+        filter: blur(5px);
+    }
+
     to {
         height: 103px;
         filter: blur(0px);
@@ -92,11 +96,11 @@ html, body {
 }
 
 #realblurb {
-    padding: 0;
+    padding-right: 20px;
     grid-row: 1;
 }
 
 #projectgrid {
-    padding: 0;
+    padding-right: 20px;
     grid-row: 1;
 }
